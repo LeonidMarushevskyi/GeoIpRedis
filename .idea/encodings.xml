@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/BaseConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/BaseConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/impl/EntryPointConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/impl/EntryPointConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/spring/SpringConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/spring/SpringConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/spring/SpringContext.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/spring/SpringContext.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/ECommerceConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/ECommerceConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/LiqPayConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/LiqPayConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/MongoConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/MongoConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/P24Configuration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/P24Configuration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/RabbitMqConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/RabbitMqConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/RedisConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/RedisConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/RedisConnectionPoolConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/RedisConnectionPoolConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/SecurityConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/SecurityConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/SmsBankingConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/SmsBankingConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/geoipredis/configuration/Properties.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/geoipredis/configuration/PropertiesImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/geoipredis/configuration/SpringConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/geoipredis/configuration/SpringContext.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/production.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/properties-config-test.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/properties-config.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/test.properties" charset="UTF-8" />
+  </component>
+</project>
+
