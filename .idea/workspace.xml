@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0595cb2d-d1a7-48f9-b479-c207c3c9db73" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/properties-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/redis.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/configuration/Properties.java" afterPath="$PROJECT_DIR$/src/main/java/configuration/Properties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/configuration/PropertiesImpl.java" afterPath="$PROJECT_DIR$/src/main/java/configuration/PropertiesImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/configuration/SpringConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/configuration/SpringConfiguration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/configuration/SpringContext.java" afterPath="$PROJECT_DIR$/src/main/java/configuration/SpringContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/geoip/GeoIpLocator.java" afterPath="$PROJECT_DIR$/src/main/java/geoip/GeoIpLocator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/geoip/GeoIpLocatorExample.java" afterPath="$PROJECT_DIR$/src/main/java/geoip/GeoIpLocatorExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/geoip/IpUtils.java" afterPath="$PROJECT_DIR$/src/main/java/geoip/IpUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/loader/FileLoader.java" afterPath="$PROJECT_DIR$/src/main/java/loader/FileLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/loader/FileLoaderBase.java" afterPath="$PROJECT_DIR$/src/main/java/loader/FileLoaderBase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/loader/GeoIpFileLoader.java" afterPath="$PROJECT_DIR$/src/main/java/loader/GeoIpFileLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/loader/GeoLiteCityBlocksLoader.java" afterPath="$PROJECT_DIR$/src/main/java/loader/GeoLiteCityBlocksLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/loader/GeoLiteCityLocationLoader.java" afterPath="$PROJECT_DIR$/src/main/java/loader/GeoLiteCityLocationLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/redis/RedisConnactionFactory.java" afterPath="$PROJECT_DIR$/src/main/java/redis/RedisConnactionFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/redis/RedisException.java" afterPath="$PROJECT_DIR$/src/main/java/redis/RedisException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/geoipredis/redis/ValidateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/redis/ValidateUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="GeoIpRedis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -143,7 +124,7 @@
       <file leaf-file-name="GeoLiteCityBlocksLoader.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/loader/GeoLiteCityBlocksLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.17585301">
+            <state line="17" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.69187677">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#656#672#0" expanded="true" />
@@ -349,6 +330,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="MavenSettings" />
@@ -616,7 +598,11 @@
       <created>1357508483069</created>
       <updated>1357508483069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1357509292875</created>
+      <updated>1357509292875</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -624,7 +610,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -638,10 +624,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296617" sideWeight="0.7090032" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296617" sideWeight="0.670418" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940991" sideWeight="0.7090032" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2909968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940991" sideWeight="0.670418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2909968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -861,7 +847,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/loader/GeoLiteCityBlocksLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.17585301">
+        <state line="17" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.69187677">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#656#672#0" expanded="true" />
