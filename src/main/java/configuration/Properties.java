@@ -1,4 +1,4 @@
-package geoipredis.configuration;
+package configuration;
 
 /**
  * @author Marushevskiy L.

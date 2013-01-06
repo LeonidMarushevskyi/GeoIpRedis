@@ -1,8 +1,8 @@
-package geoipredis.loader;
+package loader;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import geoipredis.redis.RedisConnactionFactory;
+import redis.RedisConnactionFactory;
 import redis.clients.jedis.Jedis;
 
 import java.io.*;

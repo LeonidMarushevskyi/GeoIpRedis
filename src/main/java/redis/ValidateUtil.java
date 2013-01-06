@@ -1,4 +1,4 @@
-package geoipredis.redis;
+package redis;
 
 /**
  * User: Marushevskiy L.

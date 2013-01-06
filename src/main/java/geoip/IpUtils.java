@@ -1,4 +1,4 @@
-package geoipredis.geoip;
+package geoip;
 
 import java.util.concurrent.atomic.AtomicReferenceArray;
 

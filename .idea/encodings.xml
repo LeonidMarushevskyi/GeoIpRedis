@@ -4,6 +4,10 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/configuration/BaseConfiguration.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/configuration/BaseConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/Properties.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/PropertiesImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/SpringConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/configuration/SpringContext.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/configuration/impl/EntryPointConfiguration.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/configuration/impl/EntryPointConfiguration.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/configuration/spring/SpringConfiguration.java" charset="UTF-8" />
@@ -28,10 +32,6 @@
     <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/SecurityConfiguration.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/SmsBankingConfiguration.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/configuration/sub/SmsBankingConfiguration.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/geoipredis/configuration/Properties.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/geoipredis/configuration/PropertiesImpl.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/geoipredis/configuration/SpringConfiguration.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/geoipredis/configuration/SpringContext.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/production.properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/properties-config-test.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/properties-config.xml" charset="UTF-8" />

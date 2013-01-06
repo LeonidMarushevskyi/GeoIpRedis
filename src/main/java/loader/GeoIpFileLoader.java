@@ -1,4 +1,4 @@
-package geoipredis.loader;
+package loader;
 
 /**
  * User: Marushevskiy L.
