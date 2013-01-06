@@ -1,4 +1,4 @@
-package loader;
+package geoipredis.loader;
 
 import java.io.IOException;
 

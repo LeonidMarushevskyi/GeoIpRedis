@@ -1,4 +1,4 @@
-package loader;
+package geoipredis.loader;
 
 /**
  * User: Marushevskiy L.
@@ -12,7 +12,7 @@ public class GeoIpFileLoader {
         geoIpLoader.loadDataFromFiles("/home/user/Dropbox/GeoIp/GeoLiteCity_20130101/GeoLiteCity-Blocks.csv", "/home/user/Dropbox/GeoIp/GeoLiteCity_20130101/GeoLiteCity-Location.csv");
     }
 
-    public void loadDataFromFiles(String blocksFilePath, String locationFilePath) throws Exception {
+    private void loadDataFromFiles(String blocksFilePath, String locationFilePath) throws Exception {
 
         FileLoader blocksFileLoader = new GeoLiteCityBlocksLoader();
         blocksFileLoader.loadFile(blocksFilePath, 1);

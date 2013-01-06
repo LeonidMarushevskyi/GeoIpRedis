@@ -1,4 +1,4 @@
-package geoip;
+package geoipredis.geoip;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,10 +21,10 @@ public class GeoIpLocatorExample {
             logger.info(geoIpLocator.getIpLocationJson(args[0]));
             i++;
         }
-        //logger.info("{} queries processed at at time: {}", i, (System.currentTimeMillis()-current));
+        logger.info("{} queries processed at at time: {}", i, (System.currentTimeMillis()-current));
     }
 
-    public String getIpLocationJson(String ip) throws Exception {
+    private String getIpLocationJson(String ip) {
         return new GeoIpLocator().getIpLocation(ip, 1, 2);
     }
 }

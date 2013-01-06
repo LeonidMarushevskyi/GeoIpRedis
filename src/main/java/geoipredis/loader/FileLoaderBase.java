@@ -1,8 +1,8 @@
-package loader;
+package geoipredis.loader;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import redis.RedisConnactionFactory;
+import geoipredis.redis.RedisConnactionFactory;
 import redis.clients.jedis.Jedis;
 
 import java.io.*;
@@ -43,8 +43,11 @@ public abstract class FileLoaderBase implements FileLoader {
             }
             logger.info("Loading total time: {} sec", (System.currentTimeMillis() - current) / 1000);
         } finally {
+            assert fileStream != null;
             fileStream.close();
+            assert dataInputStream != null;
             dataInputStream.close();
+            assert redis != null;
             redis.closeConnection();
         }
     }

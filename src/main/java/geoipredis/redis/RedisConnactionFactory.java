@@ -1,6 +1,6 @@
-package redis;
+package geoipredis.redis;
 
-import configuration.SpringContext;
+import geoipredis.config.SpringContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
@@ -16,7 +16,7 @@ public class RedisConnactionFactory {
 
     private final static Logger logger = LoggerFactory.getLogger(RedisConnactionFactory.class);
 
-    private Jedis connection;
+    private final Jedis connection;
 
     public RedisConnactionFactory() {
         connection = openConnection();

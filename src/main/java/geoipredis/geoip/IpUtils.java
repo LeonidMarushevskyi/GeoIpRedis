@@ -1,4 +1,4 @@
-package geoip;
+package geoipredis.geoip;
 
 import java.util.concurrent.atomic.AtomicReferenceArray;
 
@@ -12,8 +12,7 @@ public class IpUtils {
     public static long getNumberIp(String ip) {
 
         AtomicReferenceArray<String> ipParts = new AtomicReferenceArray<String>(ip.split("\\."));
-        long integerIp = (16777216 * Integer.parseInt(ipParts.get(0))) + (65536 * Integer.parseInt(ipParts.get(1))) + (256 * Integer.parseInt(ipParts.get(2))) + Integer.parseInt(ipParts.get(3));
 
-        return integerIp;
+        return (16777216 * Integer.parseInt(ipParts.get(0))) + (65536 * Integer.parseInt(ipParts.get(1))) + (256 * Integer.parseInt(ipParts.get(2))) + Integer.parseInt(ipParts.get(3));
     }
 }
