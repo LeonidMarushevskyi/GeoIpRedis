@@ -38,6 +38,9 @@ public abstract class FileLoaderBase implements FileLoader {
             String strLine;
             int iterator = 1;
             while ((strLine = bufferedReader.readLine()) != null) {
+                if (strLine.contains("Copyright") || strLine.contains("locId")) {
+                    continue;
+                }
                 loadLineToRedis(redisConnaction, strLine, iterator);
                 iterator++;
             }
