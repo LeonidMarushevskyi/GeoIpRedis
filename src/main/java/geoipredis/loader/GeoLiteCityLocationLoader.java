@@ -1,5 +1,6 @@
 package geoipredis.loader;
 
+import geoipredis.geoip.IpLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
@@ -15,12 +16,12 @@ public class GeoLiteCityLocationLoader extends FileLoaderBase implements FileLoa
 
     protected void loadLineToRedis(Jedis redisConnaction, String line, int iterator) {
         long current = System.currentTimeMillis();
-        String[] values = line.replaceAll("\"", "").split(",");
-        StringBuilder json = new StringBuilder();
-        json.append("{\"locId\"=\"").append(values[0]).append("\",\"country\"=\"").append(values[1]).append("\",\"region\"=\"").append(values[2]).append("\",\"city\"=\"").append(values[3]).append("\",\"postalCode\"=\"").append(values[4]).append("\",\"latitude\"=\"").append(values[5]).append("\",\"longitude\"=\"").append(values[6]).append("\",\"metroCode\"=\"").append(values[1]).append("\",\"areaCode\"=\"").append(values[1]).append("\"}");
-        redisConnaction.set(values[0], json.toString());
+        String newLine = line.replaceAll("\"", "")+" ,";
+        String[] values = newLine.split(",");
+        IpLocation ipLocation = new IpLocation(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8]);
+        redisConnaction.set(values[0], ipLocation.toJson());
 
-        logger.debug("Line inserted {} at time: {}", json.toString(), (System.currentTimeMillis() - current));
+        logger.debug("Line inserted {} at time: {}", ipLocation.toJson(), (System.currentTimeMillis() - current));
 
     }
 }

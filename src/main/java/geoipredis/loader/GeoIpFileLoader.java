@@ -9,16 +9,14 @@ public class GeoIpFileLoader {
 
     public static void main(String[] args) throws Exception {
         GeoIpFileLoader geoIpLoader = new GeoIpFileLoader();
-        geoIpLoader.loadDataFromFiles(args[0], args[1]);
+        geoIpLoader.loadDataFromFiles("/home/user/Dropbox/GeoIp/GeoLiteCity_20130101/GeoLiteCity-Blocks.csv", "/home/user/Dropbox/GeoIp/GeoLiteCity_20130101/GeoLiteCity-Location.csv");
     }
 
     private void loadDataFromFiles(String blocksFilePath, String locationFilePath) throws Exception {
-
         FileLoader blocksFileLoader = new GeoLiteCityBlocksLoader();
         blocksFileLoader.loadFile(blocksFilePath, 1);
 
         FileLoader locationFileLoader = new GeoLiteCityLocationLoader();
         locationFileLoader.loadFile(locationFilePath, 2);
-
     }
 }

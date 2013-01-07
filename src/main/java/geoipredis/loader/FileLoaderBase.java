@@ -32,9 +32,11 @@ public abstract class FileLoaderBase implements FileLoader {
             redisConnaction.select(redisDatabaseIndex);
             try {
                 redisConnaction.flushDB();
+                logger.info("Database flushed");
             } catch (Exception e) {
                 logger.error("Flush DB timeout", e);
             }
+            logger.info("Start loading data ...");
             String strLine;
             int iterator = 1;
             while ((strLine = bufferedReader.readLine()) != null) {
@@ -44,7 +46,7 @@ public abstract class FileLoaderBase implements FileLoader {
                 loadLineToRedis(redisConnaction, strLine, iterator);
                 iterator++;
             }
-            logger.info("Loading total time: {} sec", (System.currentTimeMillis() - current) / 1000);
+            logger.info("Data loading complete in time: {} sec", (System.currentTimeMillis() - current) / 1000);
         } finally {
             assert fileStream != null;
             fileStream.close();
