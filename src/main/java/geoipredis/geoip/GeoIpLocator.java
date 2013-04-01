@@ -24,7 +24,7 @@ public class GeoIpLocator {
         RedisConnactionFactory redis = null;
         IpLocation ipLocation = new IpLocation();
         try {
-            long numberIp = IpUtils.getNumberIp(ip);
+            Double numberIp = IpUtils.getNumberIp(ip);
 
             redis = new RedisConnactionFactory();
             Jedis redisConnaction = redis.getConnection();

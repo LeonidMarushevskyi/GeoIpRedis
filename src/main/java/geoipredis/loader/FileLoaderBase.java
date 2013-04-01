@@ -44,6 +44,7 @@ public abstract class FileLoaderBase implements FileLoader {
                     continue;
                 }
                 loadLineToRedis(redisConnaction, strLine, iterator);
+                logger.debug("Line loaded {}", iterator);
                 iterator++;
             }
             logger.info("Data loading complete in time: {} sec", (System.currentTimeMillis() - current) / 1000);

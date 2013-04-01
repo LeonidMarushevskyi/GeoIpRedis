@@ -9,7 +9,7 @@ public class GeoIpFileLoader {
 
     public static void main(String[] args) throws Exception {
         GeoIpFileLoader geoIpLoader = new GeoIpFileLoader();
-        geoIpLoader.loadDataFromFiles("/home/user/Dropbox/GeoIp/GeoLiteCity_20130101/GeoLiteCity-Blocks.csv", "/home/user/Dropbox/GeoIp/GeoLiteCity_20130101/GeoLiteCity-Location.csv");
+        geoIpLoader.loadDataFromFiles("/home/user/geoip/GeoLiteCity-Blocks.csv", "/home/user/geoip/GeoLiteCity-Location.csv");
     }
 
     private void loadDataFromFiles(String blocksFilePath, String locationFilePath) throws Exception {

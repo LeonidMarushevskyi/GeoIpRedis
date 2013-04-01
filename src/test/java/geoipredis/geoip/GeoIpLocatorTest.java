@@ -30,15 +30,10 @@ public class GeoIpLocatorTest extends TestCase {
     /**
      * Test of getIpLocation method, of class GeoIpLocator.
      */
-    public void testGetIpLocation() {
-        System.out.println("getIpLocation");
-        String ip = "110.77.205.127";
-        int blocksDbIndex = 1;
-        int locationsDbIndex = 2;
-        GeoIpLocator instance = new GeoIpLocator();
-        IpLocation result = instance.getIpLocation(ip, blocksDbIndex, locationsDbIndex);
-        logger.info("Country: {} City: {}", result.getCountry(), result.getCity());
-    }
+        public void testGetIpLocation() {           
+            IpLocation result = new GeoIpLocator().getIpLocation("193.25.120.189", 1, 2);
+            logger.info("Result: {}", result.toJson());
+        }
 
     
 }
